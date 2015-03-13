@@ -25,11 +25,11 @@ class PcComponentesCrawlerTest extends \PHPUnit_Framework_TestCase
 	}
 
 
-	public function testExtractPrice()
+	public function testExtractPriceReturnsAndInteger()
 	{
 		$this->crawler->crawl();
 		$this->crawler->extractPrice();
-		$this->assertNotNull($this->crawler->getPrice());
+                $this->assertInternalType('int', $this->crawler->getPrice());
 	}
 
 }
