@@ -29,7 +29,7 @@ class PcComponentesCrawlerTest extends \PHPUnit_Framework_TestCase
 	{
 		$this->crawler->crawl();
 		$this->crawler->extractPrice();
-                $this->assertInternalType('int', $this->crawler->getPrice());
+        $this->assertInternalType('int', $this->crawler->getPrice());
 	}
 
 }
