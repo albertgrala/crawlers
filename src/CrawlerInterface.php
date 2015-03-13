@@ -2,7 +2,7 @@
 
 namespace Albertgrala\Crawlers;
 
-interface Crawler {
+interface CrawlerInterface {
 
 	public function setUrl($url);
 

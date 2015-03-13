@@ -2,10 +2,10 @@
 
 namespace Albertgrala\Crawlers;
 
-use Albertgrala\Crawlers\Crawler;
+use Albertgrala\Crawlers\CrawlerInterface;
 use Albertgrala\Crawlers\BaseCrawler;
 
-class PcComponentesCrawler extends BaseCrawler implements Crawler {
+class PcComponentesCrawler extends BaseCrawler implements CrawlerInterface {
 
 	public function extractPrice()
 	{
