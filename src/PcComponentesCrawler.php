@@ -4,6 +4,7 @@ namespace Albertgrala\Crawlers;
 
 use Albertgrala\Crawlers\CrawlerInterface;
 use Albertgrala\Crawlers\BaseCrawler;
+use Exception;
 
 class PcComponentesCrawler extends BaseCrawler implements CrawlerInterface {
 
