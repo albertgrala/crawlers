@@ -5,6 +5,7 @@ namespace Albertgrala\Crawlers;
 use Albertgrala\Crawlers\CrawlerInterface;
 use Albertgrala\Crawlers\BaseCrawler;
 use Exception;
+use Money\Money;
 
 class PcComponentesCrawler extends BaseCrawler implements CrawlerInterface {
 
@@ -17,7 +18,7 @@ class PcComponentesCrawler extends BaseCrawler implements CrawlerInterface {
 			throw new Exception("Product price not found", 1);
 		}
 
-		$this->price = $matches[1];
+		$this->price = Money::stringToUnits($matches[1]);
 	}
 
 }
