@@ -7,7 +7,7 @@ use Exception;
 class UrlNotCrawledException extends Exception
 {
 
-	/**
+    /**
      * @var string
      */
     protected $url;
@@ -26,7 +26,7 @@ class UrlNotCrawledException extends Exception
         parent::__construct('Url Not Crawled: '.$this->getUrl(), $code, $previous);
     }
 
-	/**
+    /**
      * Get the url which was not found.
      *
      * @return string
