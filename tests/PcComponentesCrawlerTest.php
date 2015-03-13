@@ -1,6 +1,6 @@
 <?php
 
-namespace Albergrala\Crawlers;
+namespace Albertgrala\Crawlers;
 
 use Albertgrala\Crawlers\PcComponentesCrawler;
 
