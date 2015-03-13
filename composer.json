@@ -1,0 +1,12 @@
+{
+    "name": "albertgrala/crawlers",
+    "description": "Crawlers to extract information given a url",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "albertgrala",
+            "email": "albertgrala@gmail.com"
+        }
+    ],
+    "require": {}
+}
